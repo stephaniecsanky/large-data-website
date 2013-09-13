@@ -1,0 +1,28 @@
+#Dogs
+
+- Home
+- Dog Breeds
+	- List of Dog Breeds
+	- Police Dog Breeds
+	- Herding Dog Breeds
+	- Most Popular Dog Breeds
+	- Famous Dogs
+- Traveling With or Without Your Dog
+	- Crate Training Your Dog
+	- Tips for Travelling With a Dog
+	- Dog Boarding
+- Dog Grooming 
+	- Tear Stains
+	- Coats
+	- Shedding
+	- Nails
+	- Dental Care
+	- 101 Tips for Proper Dog Care
+- For Prospective Dog Owners
+	- The Benefits of Multiple Pets
+	- Things to consider before adopting a dog
+	- What Kind of Dog is Right for you?
+	- Costs of Having a Dog
+- Socializing Your Dog
+	- Reversing Bad Behaviour
+	- Properly Socializing Your Dog
