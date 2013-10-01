@@ -48,10 +48,10 @@ The website is targeted at canine enthusiasts who are interested in finding out 
 ## To-do
 
 - [x] Research
-- [ ] Content organization
-- [ ] Tasks & priorities
+- [x] Content organization
+- [x] Tasks & priorities
 - [ ] Prototype
-- [ ] Style exploration
+- [x] Style exploration
 - [ ] Writing exploration
 - [ ] Component guide
 - [ ] Homepage design
