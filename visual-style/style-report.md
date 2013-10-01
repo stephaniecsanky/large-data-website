@@ -1,0 +1,11 @@
+#Style Report
+---
+After this weeks assignment I learned a lot about the visual brainstorming process. I enjoyed trying out new brainstorming styles including type guides and element collages. I think each style has it's own pros and cons and each style works better for certain projects(e.g. websites, magazine layouts, app design, etc).
+
+I realized that **moodboards** are a very vague way of presenting information. I find them to benefit the creator more than the client. Moodboards help spark inspiration for a concept but don't really show where the visual piece will go, but rather what will inspire it. Moodboards also lack organization and rarely combine image and type, which I think needs to be shown to the client during the creation process. 
+
+I found **element collages** to be the most fun and most beneficial brainstorming process. When designing a website, I believe the ability to combine image and type to form visual graphics and things like buttons, helps the client picture the end product. I found this really beneficial for creating ideas and a rough concept of what the end product could be. I feel that this style would work really well for communicating ideas with the client.
+
+**Style tiles** are another great way to communicate basic appearance options for things like images, buttons, text and for creating an overall theme for the work. However, there's no way to really show an example of a webpage or a magazine spread which I think dampers the communication process between client and creator.
+
+The other style is **type guides**. This style is very thorough and in detail as shown in the example for this week. Type guides can very beneficial if you take the time to execute it. Type is an important part of most designs and something that often gets forgotten or underestimated. One downside with type guides is that their is not much experimenting with interactive things such as buttons and lots of imagery, but you get a sense of a theme with the type choices and layout. I like how their was many approaches and ideas taken into factor, and then the client chose what was best in their eyes. Type guides are good at showing a possible end product for the project.
