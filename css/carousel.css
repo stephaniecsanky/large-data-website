@@ -7,6 +7,12 @@ body {
   color: #5a5a5a;
 }
 
+/* SEARCH TOOL */ 
+.searchbar {
+	float: right;
+	padding-top: 12px;
+	padding-left: 8px;
+}
 
 
 /* CUSTOMIZE THE NAVBAR
