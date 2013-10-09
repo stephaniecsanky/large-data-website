@@ -1,0 +1,26 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Stephanie Csanky <csankystephanie@gmail.com>
+Site: https://www.facebook.com/StephanieCsankyDesign
+GitHub: https://github.com/stephaniecsanky
+Twitter: @stephcdesign
+Location: Ottawa, Canada
+
+---
+
+
+# TECHNOLOGY
+
+## Software
+
+- Adobe Dreamweaver CC
+- Git + GitHub
+- Jekyll
+- Markdown
+
+## Hosting
+
+- GitHub <http://github.com>
+
