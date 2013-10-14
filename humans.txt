@@ -3,7 +3,6 @@
 # TEAM
 
 Designer & Developer: Stephanie Csanky <csankystephanie@gmail.com>
-Site: https://www.facebook.com/StephanieCsankyDesign
 GitHub: https://github.com/stephaniecsanky
 Twitter: @stephcdesign
 Location: Ottawa, Canada
@@ -11,14 +10,21 @@ Location: Ottawa, Canada
 ---
 
 
-# TECHNOLOGY
+# WEBSITE
+- Last update: 2013/10/14
 
 ## Software
 
-- Adobe Dreamweaver CC
+- Adobe Dreamweaver
 - Git + GitHub
+
+## Standards
+- HTML
+- CSS
+- JS
+
+## Components
 - Jekyll
-- Markdown
 
 ## Hosting
 

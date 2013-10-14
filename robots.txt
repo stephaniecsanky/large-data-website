@@ -1,5 +1,3 @@
-# robotstxt.org
-
 Sitemap: http://dogdiscovery.com/sitemap.xml
-
 User-Agent: *
+Disallow:
