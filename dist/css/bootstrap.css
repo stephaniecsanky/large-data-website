@@ -48,6 +48,7 @@ html {
 
 body {
   margin: 0;
+  color:#FFE1BB;
 }
 
 a:focus {
@@ -265,6 +266,7 @@ table {
   }
   .navbar {
     display: none;
+	background-color:#C60;
   }
   .table td,
   .table th {
@@ -304,7 +306,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: #ffffff;
+  background-color:#FFE1BB;
 }
 
 input,
