@@ -50,19 +50,19 @@ The website is targeted at canine enthusiasts who are interested in finding out 
 - [x] Research
 - [x] Content organization
 - [x] Tasks & priorities
-- [ ] Prototype
+- [x] Prototype
 - [x] Style exploration
 - [ ] Writing exploration
 - [ ] Component guide
-- [ ] Homepage design
+- [x] Homepage design
 - [ ] Inside pages
 - [ ] Comments
 - [ ] Categories
 - [ ] Search results
 - [ ] Accessibility
 - [ ] 404 page
-- [ ] SEO
-- [ ] Metadata
+- [x] SEO
+- [x] Metadata
 - [ ] Speed
 
 ## Licence
