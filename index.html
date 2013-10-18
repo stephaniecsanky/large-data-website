@@ -1,6 +1,24 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+
+    <title>Dog Discovery / Home</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../dist/css/bootstrap.css" rel="stylesheet">
+	<link href="css/carousel.css" rel="stylesheet">
+	
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
   <body>
     <div class="navbar-wrapper">
       <div class="container">
@@ -13,11 +31,11 @@ layout: default
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Dog Discovery / Home</a>
+              <a class="navbar-brand" href="index.html">Dog Discovery / Home</a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="index.html">Home</a></li>
                  <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Breeds <b class="caret"></b></a>
                   <ul class="dropdown-menu">
@@ -39,7 +57,7 @@ layout: default
 				  <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Grooming <b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Tear Stains</a></li>
+                    <li><a href="grooming/tear-stains.html">Tear Stains</a></li>
                     <li><a href="#">Coats</a></li>
                     <li><a href="#">Shedding</a></li>
 					  <li><a href="#">Nails</a></li>
@@ -88,7 +106,7 @@ layout: default
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="http://" data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+          <img src="http://placehold.it/100%x500" data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Newsletter</h1>
@@ -98,7 +116,7 @@ layout: default
           </div>
         </div>
         <div class="item">
-          <img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Second slide" alt="Second slide">
+          <img src="http://placehold.it/100%x500" data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Second slide" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Welcome to Dog Discovery!</h1>
@@ -130,33 +148,31 @@ layout: default
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
+          <img class="img-circle" src="http://placehold.it/140x140" data-src="holder.js/140x140" alt="Generic placeholder image">
           <h2>What Breed is Best for You?</h2>
           <p>From Golden Retriever to Poodle, we break down what breeds are best for situations whether it's for a family or a single adult.</p>
           <p><a class="btn btn-default" href="#">View details</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
+          <img class="img-circle" src="http://placehold.it/140x140" data-src="holder.js/140x140" alt="Generic placeholder image">
           <h2>Breed of the Week: <h2 class="text-muted">Coton du Tulear</h2></h2>
           <p>The Coton de Tuléar is a breed of small dog. It is named for the city of Tuléar in Madagascar and for its cotton-like coat.</p>
           <p><a class="btn btn-default" href="#">View details</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">
+          <img class="img-circle" src="http://placehold.it/140x140" data-src="holder.js/140x140" alt="Generic placeholder image">
           <h2>List of Breeds</h2>
           <p>Dogs have been selectively bred for thousands of years, sometimes by inbreeding dogs from the same ancestral lines, sometimes by mixing dogs from very different lines. The process continues today, resulting in a wide variety of breeds, hybrids, and types of dog.</p>
           <p><a class="btn btn-default" href="#">View all Breeds</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
-
       <!-- START THE FEATURETTES -->
-
       <hr class="featurette-divider">
 
       <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="http://placehold.it/500x500" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
         </div>
         <div class="col-md-7">
           <h2 class="featurette-heading">Dog History</h2>
@@ -183,7 +199,7 @@ layout: default
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../Desktop/bootstrap-3.0.0/assets/js/jquery.js"></script>
-    <script src="../Desktop/bootstrap-3.0.0/dist/js/bootstrap.min.js"></script>
-    <script src="../Desktop/bootstrap-3.0.0/assets/js/holder.js"></script>
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../dist/js/bootstrap.min.js"></script>
+    <script src="../assets/js/holder.js"></script>
   </body>
