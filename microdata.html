@@ -1,0 +1,34 @@
+<!--http://schema.org/Person-->
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Microdata</title>
+</head>
+
+<body>
+
+	<div itemscope itemtype="http://schema.org/Person">
+		<strong itemprop="name">Egon Spengler</strong>
+		<dl>
+			<dt>Email</dt>
+			<dd><a href="mailto:egon@ghostbusters.com" itemprop="email">egon@ghostbusters.com</a>
+			<dt>Phone</dt>
+			<dd><a href="tel:+18005552368" itemprop="telephone">1 800 555 2368</a></dd>
+			<dt>Website</dt>
+			<dd><a href="http://ghostbusters.com" itemprop="url">ghostbusters.com</a></dd>
+		</dl>
+		<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+			<span itemprop="streetAddress">14 N Moore St.</span>
+			<br>
+			<span itemprop="addressLocality">New York</span>,
+			<span itemprop="addressRegion">NY</span>,
+			<span itemprop="addressCountry">USA</span>
+			<br>
+			<span itemprop="postalCode">10013</span>
+		</p>
+	</div>
+
+</body>
+</html>
