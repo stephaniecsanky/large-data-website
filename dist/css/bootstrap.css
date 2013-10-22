@@ -9,7 +9,6 @@
  */
 
 /*! normalize.css v2.1.0 | MIT License | git.io/normalize */
-
 article,
 aside,
 details,
@@ -327,7 +326,7 @@ textarea {
 
 a {
   color: #428bca;
-  text-decoration: none;
+  text-decoration:none;
 }
 
 a:hover,
@@ -371,13 +370,15 @@ img {
 
 .img-circle {
   border-radius: 50%;
+  max-width: 160px;
+  max-height: 160px;
 }
 
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   border: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #000;
 }
 
 .sr-only {
@@ -3777,6 +3778,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  width: 100%;
 }
 
 .nav:before,
@@ -4017,6 +4019,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
+  width: 100%;
 }
 
 .navbar:before,
@@ -4147,6 +4150,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-static-top {
   border-width: 0 0 1px;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -4375,6 +4379,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
+  width: 100%;
 }
 
 .navbar-default .navbar-brand {
@@ -4602,6 +4607,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-inverse .navbar-link {
   color: #999999;
+  width: 100%;
 }
 
 .navbar-inverse .navbar-link:hover {
