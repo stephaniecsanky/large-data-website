@@ -31,7 +31,14 @@ layout: default
 	<script type='text/javascript'>
 			$(document).ready(function(){
 				fillTable(1);
+			$(".pageswitch").each(function(i, e){
+  				 e.click(function(){
+       		 var page = e.attr("page");
+       			 fillTable(page);
+    });
+});
 			});
+			
 		</script>
   </head>
   <body>
@@ -113,6 +120,11 @@ layout: default
       </div>
     </div>
 	
+	<input type='button' class='pageswitch btn' page=1>
+	<input type='button' class='pageswitch btn' page=2>
+	<input type='button' class='pageswitch btn' page=3>
+	<input type='button' class='pageswitch btn' page=4>
+	<input type='button' class='pageswitch btn' page=5>
 	<table id="dogTable" class='table' style="">
 			<th>Dog Name</th>
 			<th>Country of Origin</th>

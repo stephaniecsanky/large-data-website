@@ -45,6 +45,32 @@ fillTable = function(page){
 	
 	addDog("Alaskan Malamute", "United States", "Northern Breed", "//placehold.it/100x100");
 	
+	addDog("Alaskan Malamute", "United States", "Northern Breed", "//placehold.it/100x100");
+
+	addDog("Alaskan Malamute", "United States", "Northern Breed", "//placehold.it/100x100");
+	
+	addDog("Alaskan Malamute", "United States", "Northern Breed", "//placehold.it/100x100");
+	
+	addDog("Alaskan Malamute", "United States", "Northern Breed", "//placehold.it/100x100");
+
+	addDog("Alaskan Malamute", "United States", "Northern Breed", "//placehold.it/100x100");
+	
+	addDog("Alaskan Malamute", "United States", "Northern Breed", "//placehold.it/100x100");
+	
+	addDog("Akita", "Japan", "Utility", "//placehold.it/100x100");
+		
+	addDog("Akita", "Japan", "Utility", "//placehold.it/100x100");
+	
+	addDog("Akita", "Japan", "Utility", "//placehold.it/100x100");
+	
+	addDog("Akita", "Japan", "Utility", "//placehold.it/100x100");
+	
+	addDog("Akita", "Japan", "Utility", "//placehold.it/100x100");
+	
+	addDog("Akita", "Japan", "Utility", "//placehold.it/100x100");
+	
+	addDog("Akita", "Japan", "Utility", "//placehold.it/100x100");
+	
 	var pages = dogs.length / ELEMS_PER_PAGE;
 	if(dogs.length % ELEMS_PER_PAGE > 0) pages++;
 	if(page < 0 || page > pages) return;
