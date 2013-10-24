@@ -31,12 +31,11 @@ layout: default
 	<script type='text/javascript'>
 			$(document).ready(function(){
 				fillTable(1);
-			$(".pageswitch").each(function(i, e){
-  				 e.click(function(){
-       		 var page = e.attr("page");
-       			 fillTable(page);
-    });
-});
+			$(".pageswitch").click(function(){
+                    var page = $(this).attr("page");
+                    alert(page);
+                    fillTable(page);
+                });
 			});
 			
 		</script>
