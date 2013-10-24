@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,7 +10,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../assets/ico/favicon.png">
 
-    <title>Dog Discovery / List of Breeds</title>
+    <title>Dog Discovery / Most Popular Dog Breeds</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../dist/css/bootstrap.css" rel="stylesheet">
@@ -20,6 +23,11 @@
       <script src="../../assets/js/html5shiv.js"></script>
       <script src="../../assets/js/respond.min.js"></script>
     <![endif]-->
+	<script type='text/javascript'>
+			$(document).ready(function(){
+				fillTable();
+			});
+		</script>
   </head>
   <body>
 
@@ -41,10 +49,9 @@
                  <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Breeds <b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li class="active"><a href="index.html">List of All Dog Breeds</a></li>
+                    <li class="active"><a href="index.html">Most Popular Dog Breeds</a></li>
                     <li><a href="#">Police Dog Breeds</a></li>
                     <li><a href="#">Herding Dog Breeds</a></li>
-					  <li><a href="#">Most Popular Dog Breeds</a></li>
                     <li><a href="#">Famous Dogs</a></li> 
 				    </ul>
                 </li>
@@ -60,7 +67,7 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Grooming <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li><a href="../grooming/tear-stains.html">Tear Stains</a></li>
-                    <li><a href="#">Coats</a></li>
+                    <li><a href="../grooming/coats.html">Coats</a></li>
                     <li><a href="#">Shedding</a></li>
 					  <li><a href="#">Nails</a></li>
                     <li><a href="#">Dental Care</a></li>
@@ -97,9 +104,16 @@
     <div class="jumbotron">
       <div class="container"> <!-- Insert Image for background of this container -->
         <h1>List of Breeds</h1>
-        <p>Below is a list of every single known dog breed.</p>
+        <p>Below is a a list of the most popular dog breeds.</p>
       </div>
     </div>
+	
+	<table id="dogTable" class='table' style="">
+			<th>Dog Name</th>
+			<th>Country of Origin</th>
+			<th>Classification</th>
+			<th>Image</th>
+		</table>
 
      <table class="table table-bordered" style='margin-top: 2%; position:inherit'>
 			<tr>
@@ -167,12 +181,6 @@
 				<td class="notempty">Austria</td>
 				<td class="notempty">Scenthound</td>
 				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Alpine Dachsbracke"></td>
-			</tr>
-			<tr>
-				<td class="notempty">Alpine Spaniel</td>
-				<td class="notempty">Switzerland, Savoy</td>
-				<td class="notempty">Extinct</td>
-				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Alpine Spaniel"></td>
 			</tr>
 			<tr>
 				<td class="notempty">American Akita</td>
@@ -312,14 +320,323 @@
 				<td class="notempty">Herding</td>
 				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Australian Stumpy Tail Cattle Dog"></td>
 			</tr>
+			<tr>
+				<td class="notempty">Australian Terrier</td>
+				<td class="notempty">Australia</td>
+				<td class="notempty">Terrier</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Australian Terrier"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Austrian Black and Tan Hound</td>
+				<td class="notempty">Austria</td>
+				<td class="notempty">Hound</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Austrian Black and Tan Hound"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Austrian Pinscher</td>
+				<td class="notempty">Austria</td>
+				<td class="notempty">Terrier</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Austrian Pinscher"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Azawakh</td>
+				<td class="notempty">Mali</td>
+				<td class="notempty">Hound</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Azawakh"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Bakharwal Dog</td>
+				<td class="notempty">India</td>
+				<td class="notempty"></td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Bakharwal Dog"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Barbet</td>
+				<td class="notempty">France</td>
+				<td class="notempty">Gun Dog</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Barbet"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Basenji</td>
+				<td class="notempty">Democratic Republic of the Congo</td>
+				<td class="notempty">Hound</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Basenji"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Basque Shepherd Dog</td>
+				<td class="notempty">Spain</td>
+				<td class="notempty"></td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Basque Shepherd Dog"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Basset Artesien Normand</td>
+				<td class="notempty">France</td>
+				<td class="notempty">Scent Hound</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Basset Artesien Normand"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Basset Bleu de Gascogne</td>
+				<td class="notempty">France</td>
+				<td class="notempty">Scent Hound</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Basset Bleu de Gascogne"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Basset Fauve de Bretagne</td>
+				<td class="notempty">France</td>
+				<td class="notempty">Hound</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Basset Fauve de Bretagne"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Basset Griffon Vendeen, Grand</td>
+				<td class="notempty">France</td>
+				<td class="notempty">Scent Hound</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Basset Griffon Vendeen, Grand"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Basset Griffon Vendeen, Petit</td>
+				<td class="notempty">France</td>
+				<td class="notempty">Scent Hound</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Basset Griffon Vendeen, Petit"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Basset Hound</td>
+				<td class="notempty">France</td>
+				<td class="notempty">Scent Hound</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Basset Hound"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Bavarian Mountain Hound</td>
+				<td class="notempty">Germany</td>
+				<td class="notempty">Hound</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Bavarian Mountain Hound"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Beagle</td>
+				<td class="notempty">England</td>
+				<td class="notempty">Scent Hound</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Beagle"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Beagle-Harrier</td>
+				<td class="notempty">England</td>
+				<td class="notempty">Scent Hound</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Beagle-Harrier"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Bearded Collie</td>
+				<td class="notempty">Scotland</td>
+				<td class="notempty">Herding Dog</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Bearded Collie"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Beauceron</td>
+				<td class="notempty">France</td>
+				<td class="notempty">Herding Dog</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Beauceron"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Bedlington Terrier</td>
+				<td class="notempty">United Kingdom</td>
+				<td class="notempty">Terrier</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Bedlington Terrier"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Belgian Shepherd Dog</td>
+				<td class="notempty">Belgium</td>
+				<td class="notempty">Herding</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Belgian Shepherd Dog"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Bergamasco Shepherd</td>
+				<td class="notempty">Italy</td>
+				<td class="notempty">Herding</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Bergamasco Shepherd"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Berger Blanc Suisse</td>
+				<td class="notempty">Switzerland</td>
+				<td class="notempty"></td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Berger Blanc Suisse"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Berger Picard</td>
+				<td class="notempty">France</td>
+				<td class="notempty">Herding</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Berger Picard"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Berner Laufhund</td>
+				<td class="notempty">Switzerland</td>
+				<td class="notempty"></td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Berner Laufhund"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Bernese Mountain Dog</td>
+				<td class="notempty">Switzerland</td>
+				<td class="notempty">Guardian Dog</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Bernese Mountain Dog"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Bichon Frisé</td>
+				<td class="notempty">Belgium, Spain</td>
+				<td class="notempty">Toy</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Bichon Frisé"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Black and Tan Coonhound</td>
+				<td class="notempty">United States</td>
+				<td class="notempty">Scenthound</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Black and Tan Coonhound"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Black Norweigian Elkhound</td>
+				<td class="notempty">Norway</td>
+				<td class="notempty">Hound</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Black Norweigian Elkhound"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Black Russian Terrier</td>
+				<td class="notempty">Russia</td>
+				<td class="notempty">Guardian/Utility Dog</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Black Russian Terrier"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Blackmouth Cur</td>
+				<td class="notempty">United States</td>
+				<td class="notempty">Scent Hound</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Blackmouth Cur"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Bloodhound</td>
+				<td class="notempty">Belgium, France</td>
+				<td class="notempty">Scent Hound</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Bloodhound"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Bluetick Coonhound</td>
+				<td class="notempty">United States</td>
+				<td class="notempty">Scenthound</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Bluetick Coonhound"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Boerboel</td>
+				<td class="notempty">South Africa</td>
+				<td class="notempty"></td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Boerboel"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Bohemian Shepherd</td>
+				<td class="notempty">Czech Republic</td>
+				<td class="notempty"></td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Bohemian Shepherd"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Bolognese</td>
+				<td class="notempty">Italy</td>
+				<td class="notempty">Toy/Companion</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Bolognese"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Border Collie</td>
+				<td class="notempty">Scotland, England, Wales</td>
+				<td class="notempty">Herding Dog</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Border Collie"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Border Terrier</td>
+				<td class="notempty">Scotland, England</td>
+				<td class="notempty">Terrier</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Border Terrier"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Borzoi</td>
+				<td class="notempty">Russia</td>
+				<td class="notempty">Sighthound and Pariah</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Borzoi"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Bosnian Coarse-haired Hound</td>
+				<td class="notempty">Bosnia and Herzegovina</td>
+				<td class="notempty">Scenthound</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Bosnian Coarse-haired Hound"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Boston Terrier</td>
+				<td class="notempty">United States</td>
+				<td class="notempty">Utility/Companion Dog</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Boston Terrier"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Bouvier des Flandres</td>
+				<td class="notempty">Belgium</td>
+				<td class="notempty">Herding</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Bouvier des Flandres"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Boxer</td>
+				<td class="notempty">Germany</td>
+				<td class="notempty">Utility/Guardian Dog</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Boxer"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Boykin Spaniel</td>
+				<td class="notempty">United States</td>
+				<td class="notempty">Gun Dog</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Boykin Spaniel"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Bracco Italiano</td>
+				<td class="notempty">Italy</td>
+				<td class="notempty">Gun Dog</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Bracco Italiano"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Braque d'Auvergne</td>
+				<td class="notempty">France</td>
+				<td class="notempty">Gun Dog</td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Braque d'Auvergne"></td>
+			</tr>
+			<tr>
+				<td class="notempty">Brazilian Terrier</td>
+				<td class="notempty">Brazil</td>
+				<td class="notempty"></td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt="Brazilian Terrier"></td>
+			</tr>
+			<tr>
+				<td class="notempty"></td>
+				<td class="notempty"></td>
+				<td class="notempty"></td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt=""></td>
+			</tr>
+			<tr>
+				<td class="notempty"></td>
+				<td class="notempty"></td>
+				<td class="notempty"></td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt=""></td>
+			</tr>
+			<tr>
+				<td class="notempty"></td>
+				<td class="notempty"></td>
+				<td class="notempty"></td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt=""></td>
+			</tr>
+			<tr>
+				<td class="notempty"></td>
+				<td class="notempty"></td>
+				<td class="notempty"></td>
+				<td class="notempty"><img src="http://placehold.it/100x100" class="" alt=""></td>
+			</tr>
+			
+			
+			
 		</table>
 	  
 
-      <hr>
+      <hr class=""featurette-divider">
 
-    <footer>
+    	<footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2013 Dog Discovery Inc.. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
 
     </div>
@@ -328,6 +645,8 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="../assets/js/jquery.js"></script>
+	<script src="../js/breeds.js"></script>
+	<script src="../js/jquery-1.10.1.js"></script>
     <script src="../dist/js/bootstrap.min.js"></script>
 	<script src="../assets/js/holder.js"></script>
   </body>

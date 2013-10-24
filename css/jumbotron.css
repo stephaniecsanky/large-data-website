@@ -2,3 +2,7 @@
 body {
   padding-bottom: 20px;
 }
+
+.featurette-divider {
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
+}
