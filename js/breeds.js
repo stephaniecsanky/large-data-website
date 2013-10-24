@@ -71,6 +71,29 @@ fillTable = function(page){
 	
 	addDog("Akita", "Japan", "Utility", "//placehold.it/100x100");
 	
+	addDog("Airedele Terrior", "England", "Terrior", "//placehold.it/100x100");
+	
+	addDog("Airedele Terrior", "England", "Terrior", "//placehold.it/100x100");
+	
+	addDog("Airedele Terrior", "England", "Terrior", "//placehold.it/100x100");
+	
+	addDog("Airedele Terrior", "England", "Terrior", "//placehold.it/100x100");
+	
+	addDog("Airedele Terrior", "England", "Terrior", "//placehold.it/100x100");
+	
+	addDog("Airedele Terrior", "England", "Terrior", "//placehold.it/100x100");
+	
+	addDog("Airedele Terrior", "England", "Terrior", "//placehold.it/100x100");
+	
+	addDog("Airedele Terrior", "England", "Terrior", "//placehold.it/100x100");
+	
+	addDog("Airedele Terrior", "England", "Terrior", "//placehold.it/100x100");
+	
+	addDog("Airedele Terrior", "England", "Terrior", "//placehold.it/100x100");
+	
+	addDog("Fork", "England", "Terrior", "//placehold.it/100x100");
+	
+	
 	var pages = dogs.length / ELEMS_PER_PAGE;
 	if(dogs.length % ELEMS_PER_PAGE > 0) pages++;
 	if(page < 0 || page > pages) return;
