@@ -61,7 +61,7 @@ fillTable = function(page){
 		
 	addDog("Chihuahua", "Mexico", "Toy/Companion Dog", "//placehold.it/100x100");
 	
-	addDog("Shar-Pei", "China", "Northern Breed", "//placehold.it/100x100");
+	addDog("Chinese Shar-Pei", "China", "Northern Breed", "//placehold.it/100x100");
 	
 	addDog("Chow Chow", "China", "Northern Breed", "//placehold.it/100x100");
 	
@@ -91,7 +91,7 @@ fillTable = function(page){
 	
 	addDog("Maltese", "Italy", "Companion Dog", "//placehold.it/100x100");
 	
-	addDog("Mastiff", "England", "Guardian Dog", "//placehold.it/100x100");
+	?addDog("Mastiff", "England", "Guardian Dog", "//placehold.it/100x100");
 	
 	addDog("Miniature Pinscher", "Germany", "Companion Dog", "//placehold.it/100x100");
 		
