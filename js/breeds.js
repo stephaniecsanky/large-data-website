@@ -20,7 +20,7 @@ fillTable = function(page){
 	
 	
 	
-	addDog("Airedele Terrior", "England", "Terrior", "//placehold.it/100x100");
+	addDog("Airedele Terrior", "England", "Terrior", "../img/all-breeds/airedale-terrier.jpg");
 	//airedele.name = "Airedele Terrior";
 	//airedele.country = "England";
 	//airedele.classification = "Terrior";
@@ -28,7 +28,7 @@ fillTable = function(page){
 	
 	//dogs.push(airedele); //add airedele to array
 	
-	addDog("Akita", "Japan", "Utility", "//placehold.it/100x100");
+	addDog("Akita", "Japan", "Utility", "../img/all-breeds/akita.jpg");
 	//var akita = {};
 	//akita.name = "Akita";
 	//akita.country = "Japan";
@@ -37,97 +37,97 @@ fillTable = function(page){
 	
 	//dogs.push(akita); //add akita to array
 	
-	addDog("Alaskan Malamute", "United States", "Northern Breed", "//placehold.it/100x100");
+	addDog("Alaskan Malamute", "United States", "Northern Breed", "../img/all-breeds/alaskan-malamute.jpg");
 	
-	addDog("American Cocker Spaniel", "United States", "Gun Dog", "//placehold.it/100x100");
+	addDog("American Cocker Spaniel", "United States", "Gun Dog", "../img/all-breeds/american-cocker-spaniel.jpg");
 
-	addDog("Australian Shepherd", "United States", "Herding Breed", "//placehold.it/100x100");
+	addDog("Australian Shepherd", "United States", "Herding Breed", "../img/all-breeds/australian-shepherd.jpg");
 	
-	addDog("Basset Hound", "France", "Scenthound", "//placehold.it/100x100");
+	addDog("Basset Hound", "France", "Scenthound", "../img/all-breeds/basset-hound.jpg");
 	
-	addDog("Beagle", "England", "Scenthound", "//placehold.it/100x100");
+	addDog("Beagle", "England", "Scenthound", "../img/all-breeds/beagle.jpg");
 
-	addDog("Bichon Frise", "Spain, Belgium", "Toy/Companion Dog", "//placehold.it/100x100");
+	addDog("Bichon Frise", "Spain, Belgium", "Toy/Companion Dog", "../img/all-breeds/bichon-frise.jpg");
 	
-	addDog("Boxer", "Germany", "Utility/Guardian Dog", "//placehold.it/100x100");
+	addDog("Boxer", "Germany", "Utility/Guardian Dog", "../img/all-breeds/boxer.jpg");
 	
-	addDog("Brittany Spaniel", "France", "Gun Dog", "//placehold.it/100x100");
+	addDog("Brittany Spaniel", "France", "Gun Dog", "../img/all-breeds/brittany-spaniel.jpg");
 
-	addDog("Bulldog", "England", "Utility/Companion Dog", "//placehold.it/100x100");
+	addDog("Bulldog", "England", "Utility/Companion Dog", "../img/all-breeds/bulldog.jpg");
 	
-	addDog("Cairn Terrier", "Scotland", "Terrier", "//placehold.it/100x100");
+	addDog("Cairn Terrier", "Scotland", "Terrier", "../img/all-breeds/cairn-terrier.jpg");
 	
-	addDog("Chesapeake Bay Retriever", "United States", "Gun Dog", "//placehold.it/100x100");
+	addDog("Chesapeake Bay Retriever", "United States", "Gun Dog", "../img/all-breeds/chesapeake-bay-retriever.jpg");
 		
-	addDog("Chihuahua", "Mexico", "Toy/Companion Dog", "//placehold.it/100x100");
+	addDog("Chihuahua", "Mexico", "Toy/Companion Dog", "../img/all-breeds/chihuahua.jpg");
 	
-	addDog("Chinese Shar-Pei", "China", "Northern Breed", "//placehold.it/100x100");
+	addDog("Chinese Shar-Pei", "China", "Northern Breed", "../img/all-breeds/chinese-shar-pei.jpg");
 	
-	addDog("Chow Chow", "China", "Northern Breed", "//placehold.it/100x100");
+	addDog("Chow Chow", "China", "Northern Breed", "../img/all-breeds/chow-chow.jpg");
 	
-	addDog("Collie", "Scotland", "Herding Dog", "//placehold.it/100x100");
+	addDog("Collie", "Scotland", "Herding Dog", "../img/all-breeds/collie.jpg");
 	
-	addDog("Dachshund", "Germany", "Scenthound", "//placehold.it/100x100");
+	addDog("Dachshund", "Germany", "Scenthound", "../img/all-breeds/dachshund.jpg");
 	
-	addDog("Dalmatian", "Croatia", "Companion Dog", "//placehold.it/100x100");
+	addDog("Dalmatian", "Croatia", "Companion Dog", "../img/all-breeds/dalmation.jpg");
 	
-	addDog("Doberman Pinscher", "Germany", "Utility/Guardian Dog", "//placehold.it/100x100");
+	addDog("Doberman Pinscher", "Germany", "Utility/Guardian Dog", "../img/all-breeds/doberman-pinscher.jpg");
 	
-	addDog("English Springer Spaniel", "England", "Gun Dog", "//placehold.it/100x100");
+	addDog("English Springer Spaniel", "England", "Gun Dog", "../img/all-breeds/english-springer-spaniel.jpg");
 	
-	addDog("German Shepherd", "Germany", "Herding Dog", "//placehold.it/100x100");
+	addDog("German Shepherd", "Germany", "Herding Dog", "../img/all-breeds/german-shepherd.jpg");
 	
-	addDog("German Shorthaired Pointer", "Germany", "Gun Dog", "//placehold.it/100x100");
+	addDog("German Shorthaired Pointer", "Germany", "Gun Dog", "../img/all-breeds/german-shorthaired-pointer.jpg");
 	
-	addDog("Golden Retriever", "Scotland", "Gun Dog", "//placehold.it/100x100");
+	addDog("Golden Retriever", "Scotland", "Gun Dog", "../img/all-breeds/golden-retriever.jpg");
 	
-	addDog("Great Dane", "Germany", "Guardian Dog", "//placehold.it/100x100");
+	addDog("Great Dane", "Germany", "Guardian Dog", "../img/all-breeds/great-dane.jpg");
 	
-	addDog("Great Pyrenees", "France, Spain", "Guardian Dog", "//placehold.it/100x100");
+	addDog("Great Pyrenees", "France, Spain", "Guardian Dog", "../img/all-breeds/great-pyrenees.jpg");
 	
-	addDog("Labrador Retriever", "Canada, England", "Gun Dog", "//placehold.it/100x100");
+	addDog("Labrador Retriever", "Canada, England", "Gun Dog", "../img/all-breeds/labrador-retriever.jpg");
 	
-	addDog("Lhasa Apso", "Tibet", "Companion Dog", "//placehold.it/100x100");
+	addDog("Lhasa Apso", "Tibet", "Companion Dog", "../img/all-breeds/lhasa-apso.jpg");
 	
-	addDog("Maltese", "Italy", "Companion Dog", "//placehold.it/100x100");
+	addDog("Maltese", "Italy", "Companion Dog", "../img/all-breeds/maltese.jpg");
 	
-	?addDog("Mastiff", "England", "Guardian Dog", "//placehold.it/100x100");
+	addDog("Mastiff", "England", "Guardian Dog", "../img/all-breeds/mastiff.jpg");
 	
-	addDog("Miniature Pinscher", "Germany", "Companion Dog", "//placehold.it/100x100");
+	addDog("Miniature Pinscher", "Germany", "Companion Dog", "../img/all-breeds/miniature-pinscher.jpg");
 		
-	addDog("Newfoundland", "Canada", "Utility/Guardian Dog", "//placehold.it/100x100");
+	addDog("Newfoundland", "Canada", "Utility/Guardian Dog", "../img/all-breeds/newfoundland.jpg");
 	
-	addDog("Pekingese", "China", "Toy/Companion", "//placehold.it/100x100");
+	addDog("Pekingese", "China", "Toy/Companion", "../img/all-breeds/pekingese.jpg");
 	
-	addDog("Pembroke Welsh Corgi", "Wales", "Herding Dog", "//placehold.it/100x100");
+	addDog("Pembroke Welsh Corgi", "Wales", "Herding Dog", "../img/all-breeds/pembroke-welsh-corgi.jpg");
 	
-	addDog("Pomeranian", "Germany, Poland", "Toy/Companion Dog", "//placehold.it/100x100");
+	addDog("Pomeranian", "Germany, Poland", "Toy/Companion Dog", "../img/all-breeds/pomeranian.jpg");
 
-	addDog("Poodle", "Germany, France", "Utility/Companion/Gun Dog", "//placehold.it/100x100");
+	addDog("Poodle", "Germany, France", "Utility/Companion/Gun Dog", "../img/all-breeds/poodle.jpg");
 
-	addDog("Pug", "China", "Toy/Companion Dog", "//placehold.it/100x100");
+	addDog("Pug", "China", "Toy/Companion Dog", "../img/all-breeds/pug.jpg");
 
-	addDog("Rottweiler", "Germany", "Utility/Guardian Dog", "//placehold.it/100x100");
+	addDog("Rottweiler", "Germany", "Utility/Guardian Dog", "../img/all-breeds/rottweiler.jpg");
 	
-	addDog("Saint Bernard", "Italy, Switzerland", "Utility/Guardian Dog", "//placehold.it/100x100");
+	addDog("Saint Bernard", "Italy, Switzerland", "Utility/Guardian Dog", "../img/all-breeds/saint-bernard.jpg");
 	
-	addDog("Samoyed", "Russia", "Utility/Northern Breed", "//placehold.it/100x100");	
+	addDog("Samoyed", "Russia", "Utility/Northern Breed", "../img/all-breeds/samoyed.jpg");	
 	
-	addDog("Schipperke", "Belgium", "Companion Dog", "//placehold.it/100x100");
+	addDog("Schipperke", "Belgium", "Companion Dog", "../img/all-breeds/schipperke.jpg");
 	
-	addDog("Scottish Terrier", "Scotland", "Terrior", "//placehold.it/100x100");
+	addDog("Scottish Terrier", "Scotland", "Terrior", "../img/all-breeds/scottish-terrier.jpg");
 	
-	addDog("Shetland Sheepdog", "Scotland", "Herding Dog", "//placehold.it/100x100");
+	addDog("Shetland Sheepdog", "Scotland", "Herding Dog", "../img/all-breeds/shetland-sheepdog.jpg");
 	
-	addDog("Shih-Tzu", "China", "Utility/Companion Dog", "//placehold.it/100x100");
+	addDog("Shih-Tzu", "China", "Utility/Companion Dog", "../img/all-breeds/shih-tzu.jpg");
 	
-	addDog("Siberian Husky", "Russia", "Utility/Northern Breed", "//placehold.it/100x100");
+	addDog("Siberian Husky", "Russia", "Utility/Northern Breed", "../img/all-breeds/siberian-husky.jpg");
 
-	addDog("Weimaraner", "Germany", "Gun Dog", "//placehold.it/100x100");		
+	addDog("Weimaraner", "Germany", "Gun Dog", "../img/all-breeds/weimaraner.jpg");		
 
-	addDog("West Highland White Terrier", "Scotland", "Terrior", "//placehold.it/100x100");
+	addDog("West Highland White Terrier", "Scotland", "Terrior", "../img/all-breeds/west-highland-white-terrier.jpg");
 	
-	addDog("Yorkshire Terrier", "England", "Toy/Companion Dog", "//placehold.it/100x100");
+	addDog("Yorkshire Terrier", "England", "Toy/Companion Dog", "../img/all-breeds/yorkshire-terrier.jpg");
 		
 	var pages = dogs.length / ELEMS_PER_PAGE;
 	if(dogs.length % ELEMS_PER_PAGE > 0) pages++;
