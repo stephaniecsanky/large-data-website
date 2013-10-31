@@ -135,8 +135,8 @@ img {
 }
 
 .nav-icon {
-	max-height: 25px;
-	max-width: 25px;
+	max-height: 20px;
+	max-width: 20px;
 }
 
 .skiplinks {
@@ -148,6 +148,7 @@ img {
 	z-index: 3000;
 	font-weight: bold;
 	width: 100%;
+	display: none;
 }
 
 .skiplinks a
@@ -1714,7 +1715,7 @@ input[type="search"] {
 input[type="radio"],
 input[type="checkbox"] {
   margin: 4px 0 0;
-  margin-top: 1px \9;
+  margin-top: 1px 9;
   /* IE8-9 */
 
   line-height: normal;
