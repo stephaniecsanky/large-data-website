@@ -217,6 +217,63 @@ table {
   border-spacing: 0;
 }
 
+.nav-icon {
+	max-height: 25px;
+	max-width: 25px;
+}
+
+.nav li {
+	
+}
+
+.skiplinks {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	list-style-type: none;
+	font-size: 1.25rem;
+	z-index: 3000;
+	font-weight: bold;
+	width: 100%;
+ }
+ 
+.skiplinks a,
+.skiplinks a:link,
+.skiplinks a:visited {
+	padding: 0.5em 0.75em;
+	background-color: #000;
+	color: #FFF;
+	text-decoration: none;
+	position: absolute;
+	top: -10em;
+ }
+ 
+ .skiplinks a:focus {
+ top: 0;
+ }
+ 
+ a,
+ a:link {
+        border-bottom: 1px solid rgba(0, 119, 221, 0.5);
+        color: #07d;
+        text-decoration: none;	 
+ }
+ 
+ a:visited {
+   outline: none; /*Removes the keyboard selection highlight */
+   border-color: rgba(81, 112, 138, 0.5);
+   color: #51708a;
+
+ }
+ 
+ a:hover,
+ a:active {
+   outline:none;
+ }
+ 
+
+
+
 @media print {
   * {
     color: #000 !important;
@@ -1998,17 +2055,18 @@ textarea.input-lg {
 
 .btn {
   display: inline-block;
+  background-color:#F96;
   padding: 6px 12px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   font-size: 14px;
-  font-weight: normal;
+  font-weight:bold	;
   line-height: 1.428571429;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 3px;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -2024,7 +2082,7 @@ textarea.input-lg {
 
 .btn:hover,
 .btn:focus {
-  color: #333333;
+  background-color: #C60;
   text-decoration: none;
 }
 
@@ -3787,6 +3845,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-bottom: 0;
   list-style: none;
   width: 100%;
+  background-color:#F96;
 }
 
 .nav:before,
@@ -3812,22 +3871,25 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li {
   position: relative;
   display: block;
+  color:#000;
 }
 
 .nav > li > a {
   position: relative;
   display: block;
   padding: 10px 15px;
+  color:#000;
 }
 
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color:#000; 
 }
 
 .nav > li.disabled > a {
-  color: #999999;
+  color:#000;
+  
 }
 
 .nav > li.disabled > a:hover,
@@ -3881,7 +3943,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:focus {
   color: #555555;
   cursor: default;
-  background-color: #ffffff;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
 }
@@ -4028,6 +4089,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-bottom: 20px;
   border: 1px solid transparent;
   width: 100%;
+  background-color:#F96;
+  color:#EEE;
+
 }
 
 .navbar:before,
@@ -4146,6 +4210,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .container > .navbar-collapse {
   margin-right: -15px;
   margin-left: -15px;
+    background-color:#F96;
+
 }
 
 @media (min-width: 768px) {
@@ -4951,6 +5017,7 @@ a.list-group-item.active > .badge,
 
 .container .jumbotron {
   border-radius: 6px;
+  
 }
 
 @media screen and (min-width: 768px) {

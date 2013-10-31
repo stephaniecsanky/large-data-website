@@ -27,12 +27,12 @@ layout: default
 	<meta property="twitter:image" content="http://stephaniecsanky.github.io/img/coton-du-tulear.jpg">
 	<!--These ones are optional for FB but you might as well put them in there, says Thomas -->
 	<meta property="twitter:description" content="The domestic dog (Canis lupus familiaris) is a subspecies of the gray wolf (Canis lupus), a member of the Canidae family of the mammalian order Carnivora.">
-    <link rel="shortcut icon" href="/assets/ico/favicon.png">
+    <link rel="shortcut icon" href="../img/favicon.ico">
     <title>Dog Discovery</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../dist/css/bootstrap.css" rel="stylesheet">
-    <link href="jumbotron.css" rel="stylesheet">
+    <link href="../css/jumbotron.css" rel="stylesheet">
 	<link href="css/carousel.css" rel="stylesheet">
 	
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -45,10 +45,92 @@ layout: default
   </head>
 
   <body>
+	<ul class="skiplinks">
+        <li><a href="#main">Skip to main content</a></li>
+        <li><a href="#secondary">Skip to secondary content</a></li>
+        <li><a href="#primenav">Skip to primary navigation</a></li>
+	</ul>
+  
+  
+ <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+			<nav role="navigation" id="primenav">
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="{% if page.url == '/index.html' %}active{% endif %}"><a href="{{site.baseurl}}/index.html">Home</a></li>
+			 	<li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Breeds <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li class="{% if page.url == '/breeds/index.html' %}active{% endif %}"><a href="{{site.baseurl}}/breeds/index.html">Most Popular Dog Breeds</a></li>
+                    <li class="{% if page.url == '#' %}active{% endif %}"><a href="#">Police Dog Breeds</a></li>
+                    <li class="{% if page.url == '#' %}active{% endif %}"><a href="#">Herding Dog Breeds</a></li>
+                    <li class="{% if page.url == '#' %}active{% endif %}"><a href="#">Famous Dogs</a></li> 
+				    </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Travelling <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li class="{% if page.url == '#' %}active{% endif %}"><a href="#">Crate Training Your Dog</a></li>
+                    <li class="{% if page.url == '#' %}active{% endif %}"><a href="#">Tips for Travelling With A Dog</a></li>
+                    <li class="{% if page.url == '#' %}active{% endif %}"><a href="#">Dog Boarding</a></li>
+                  </ul>
+                </li>
+				  <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Grooming <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li class="{% if page.url == '/grooming/tear-stains.html' %}active{% endif %}"><a href="{{site.baseurl}}/grooming/tear-stains.html">Tear Stains</a></li>
+                    <li class="{% if page.url == '/grooming/coats.html' %}active{% endif %}"><a href="{{site.baseurl}}/grooming/coats.html">Coats</a></li>
+                    <li class="{% if page.url == '#' %}active{% endif %}"><a href="#">Shedding</a></li>
+					  <li class="{% if page.url == '#' %}active{% endif %}"><a href="#">Nails</a></li>
+                    <li class="{% if page.url == '#' %}active{% endif %}"><a href="#">Dental Care</a></li>
+                    <li class="{% if page.url == '#' %}active{% endif %}"><a href="#">101 Proper Dog Care Tips</a></li>
+                  </ul>
+                </li>
+				  <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prospective Owners <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li class="{% if page.url == '#' %}active{% endif %}"><a href="#">Benefits of Multiple Pets</a></li>
+                    <li class="{% if page.url == '#' %}active{% endif %}"><a href="#">Things to Consider</a></li>
+                    <li class="{% if page.url == '#' %}active{% endif %}"><a href="#">What Breed is Best for You?</a></li>
+					  <li class="{% if page.url == '#' %}active{% endif %}"><a href="#">Costs of Owning A Dog</a></li>
+                  </ul>
+                </li>
+				 <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Socializing <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li class="{% if page.url == '#' %}active{% endif %}"><a href="#">Reversing Bad Behaviour</a></li>
+                    <li class="{% if page.url == '#' %}active{% endif %}"><a href="#">Properly Socializing Your Dog</a></li>
+                  </ul>
+                </li>
+				<li><a href ="#"><img src="{{site.baseurl}}/img/facebook.png" class="nav-icon" alt="Facebook Icon"></a></li>
+				<li><a href="#"><img src="{{site.baseurl}}/img/twitter.png" class="nav-icon" alt="Twitter Icon"></a></li>
+
+				
+				
+             	<div class="searchbar"> 
+					<label>Search</label>
+					<input type="search" placeholder="Search">
+				</div> 
+			  </ul>
+            </div>
+          </div>
+        </div>
+		</nav>
+
 
 {{content}}
 
-    	<footer>
+    	<footer role="contentinfo">
         	<p class="pull-right"><a href="#">Back to top</a></p>
         	<p>&copy; 2013 Dog Discovery Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
