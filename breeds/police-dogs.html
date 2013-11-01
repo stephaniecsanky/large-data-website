@@ -1,3 +1,47 @@
 ---
 layout: default
 ---
+
+	<script src="../assets/js/jquery.js"></script>
+	<script src="../js/breeds2.js"></script>
+	<script src="../js/jquery-1.10.1.js"></script>
+    <script src="../dist/js/bootstrap.min.js"></script>
+	<script src="../assets/js/holder.js"></script>
+	<script type='text/javascript'>
+			$(document).ready(function(){
+				fillTable(1);
+			$(".pageswitch").click(function(){
+                    var page = $(this).attr("page");
+                    //alert(page);
+                    fillTable(page);
+                });
+			});
+			
+		</script>
+  </head>
+  <body>
+
+   
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container"> <!-- Insert Image for background of this container -->
+        <h1>Police Dog Breeds</h1>
+        <p>Below is a a list of common police dog breeds.</p>
+      </div>
+    </div>
+	
+	<input type='button' class='pageswitch btn' page=1 value="1">
+	<input type='button' class='pageswitch btn' page=2 value="2">
+		<table id="dogTable" class='table'>
+
+		</table>
+
+
+      <hr class=""featurette-divider">
+
+
+    </div>
+
+  </body>
+</html>
