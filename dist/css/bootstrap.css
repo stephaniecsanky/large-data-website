@@ -48,7 +48,6 @@ html {
 body {
   margin: 0;
 }
-
 a {
   background: transparent;
 }
@@ -373,7 +372,8 @@ hr {
   margin-top: 5px;
   margin-bottom: 5px;
   border: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid;
+  color: #F60;
 }
 
 .sr-only {
@@ -1416,6 +1416,10 @@ pre code {
   .col-md-offset-1 {
     margin-left: 8.333333333333332%;
   }
+  
+  .col-md-hidden {
+	  display: none;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -1604,7 +1608,7 @@ th {
   padding: 8px;
   line-height: 1.428571429;
   vertical-align: top;
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #f60;
 }
 
 .table > thead > tr > th {
@@ -2198,7 +2202,7 @@ textarea.input-lg {
 .btn {
   display: inline-block;
   padding: 6px 12px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.428571429;
@@ -7056,4 +7060,8 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+}
+
+.container {
+	width: 100%;
 }
