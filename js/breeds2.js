@@ -61,13 +61,14 @@ fillTable = function(page){
 	if(page < 0 || page > pages) return;
 	
 	$("#" + tableName + " tr").remove();
-	$("#" + tableName).append("<tr id='dogTableHeaders'></tr>");
-    $("#dogTableHeaders").append("<th>Breed Name</th>");
-    $("#dogTableHeaders").append("<th>Country of Origin</th>");
-	$("#dogTableHeaders").append("<th>Job</th>");
-    $("#dogTableHeaders").append("<th>Classification</th>");
-    $("#dogTableHeaders").append("<th>Image</th>");
-		$(dogs).each(function(i, e){
+	$("#" + tableName).append("<thead></thead>");
+	$("#" + tableName + " thead").append("<tr id='dogTableHeaders'></tr>");
+	$("#dogTableHeaders").append("<th>Breed Name</th>");
+	$("#dogTableHeaders").append("<th>Country of Origin</th>");
+	$("#dogTableHeaders").append("<th>Job</th>");		
+	$("#dogTableHeaders").append("<th>Classification</th>");
+	$("#dogTableHeaders").append("<th>Image</th>");
+	$(dogs).each(function(i, e){
 		if(i >= start && i < start + ELEMS_PER_PAGE){
 			var id = "dog" + i;
 			$("#" + tableName).append("<tr id='" + id + "'></tr>");
@@ -78,4 +79,7 @@ fillTable = function(page){
 			$("#" + id).append("<td><img src='" + e.image + "' alt='" + e.name + "'/></td>");
 		}
 	});
-};// JavaScript Document
+};
+	
+	
+	

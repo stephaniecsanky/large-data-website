@@ -7,6 +7,9 @@ layout: default
 	<script src="../js/jquery-1.10.1.js"></script>
     <script src="../dist/js/bootstrap.min.js"></script>
 	<script src="../assets/js/holder.js"></script>
+	<script src="../js/jquery.tablesorter.js"></script>
+	<script src="js/jquery.tablesorter.min.js"></script>
+	<script src="js/jquery.tablesorter.widgets.min.js"></script>
 	<script type='text/javascript'>
 			$(document).ready(function(){
 				fillTable(1);
@@ -15,6 +18,7 @@ layout: default
                     //alert(page);
                     fillTable(page);
                 });
+			$("#dogTable").tablesorter({sortReset: true, sortRestart: true});
 			});
 			
 		</script>
