@@ -58,7 +58,6 @@ a:active {
 	max-height: 160px;
 }
 
-
 .img-jumbotron {
 	max-height: 280px;
 	max-width: 320px;
@@ -77,6 +76,10 @@ a:active {
 .container-fr {
 	float: right;
 
+}
+
+.buttons {
+	margin-left: 15px;
 }
 
 .img-jumbotron {
