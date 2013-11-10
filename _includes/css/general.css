@@ -1,0 +1,175 @@
+html {
+	margin: 0;
+	padding: 0;
+	background-color:#FC9;
+	font: normal 100%/1.4 Georgia, serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.flex-img {
+	display: block;
+	width: 100%;
+}
+
+nav {
+	background-color:#700;
+	padding: 2px;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+.searchbar {
+	float: right;
+}
+
+.top5 li {
+	list-style-type:decimal;
+}
+
+.flex-img {
+	width: 100%;
+	display: block;
+}
+
+.footer {
+	padding: 8xp;
+}
+
+
+/* Grid Stuff is below here */
+.grid {
+  letter-spacing: -0.31em;
+  letter-spacing: normal;
+  word-spacing: -0.43em;
+  text-rendering: optimizespeed;
+}
+.opera-only :-o-prefocus,
+.grid {
+  word-spacing: -0.43em;
+}
+.unit {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  letter-spacing: normal;
+  text-rendering: auto;
+  vertical-align: top;
+  word-spacing: normal;
+}
+.unit-spacer {
+  padding: 8px;
+}
+@media only screen and (min-width: 38em) {
+	nav ul li {
+		display: inline-block;
+	}
+	
+	.socialmedia li {
+		display:inline-block;
+		padding-top: 5px;
+		max-width: 45%;
+	}
+	
+  .unit-s-hidden {
+    display: none;
+    visibility: hidden;
+  }
+  .unit-s-1 {
+    display: block;
+  }
+  .unit-s-1-2 {
+    width: 50%;
+  }
+  .unit-s-1-3 {
+    width: 33.33333%;
+  }
+  .unit-s-2-3 {
+    width: 66.66667%;
+  }
+  .unit-s-1-4 {
+    width: 25%;
+  }
+  .unit-s-3-4 {
+    width: 75%;
+  }
+  
+  .float-right {
+	float:right;
+	display:block;
+	}
+
+	.float-left {
+	float:left;
+	display:block;
+	}
+}
+@media only screen and (min-width: 38em) and (max-width: 60em) {
+	  nav {
+		background-color:#700;
+		padding: 4px;
+	}
+	
+	nav ul li {
+		list-style-type: none;
+		display:inline-block;
+	}
+
+  .unit-m-hidden {
+    display: none;
+    visibility: hidden;
+  }
+  .unit-m-1 {
+    display: block;
+  }
+  .unit-m-1-2 {
+    width: 50%;
+  }
+  .unit-m-1-3 {
+    width: 33.33333%;
+  }
+  .unit-m-2-3 {
+    width: 66.66667%;
+  }
+  .unit-m-1-4 {
+    width: 25%;
+  }
+  .unit-m-3-4 {
+    width: 75%;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .unit-l-hidden {
+    display: none;
+    visibility: hidden;
+  }
+  .unit-l-1 {
+    display: block;
+  }
+  .unit-l-1-2 {
+    width: 50%;
+  }
+  .float-right {
+	  clear: both;
+  }
+  .float-left {
+	  clear: both;
+  }
+  .unit-l-1-3 {
+    width: 33.33333%;
+  }
+  .unit-l-2-3 {
+    width: 66.66667%;
+  }
+  .unit-l-1-4 {
+    width: 25%;
+  }
+  .unit-l-3-4 {
+    width: 75%;
+  }
+}
