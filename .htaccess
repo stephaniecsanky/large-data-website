@@ -1,3 +1,3 @@
-    ErrorDocument 404 /404.html
-    # You can specify pages for other error codes too
-    ErrorDocument 500 /500.html
+ErrorDocument 404 /404.html
+# You can specify pages for other error codes too
+ErrorDocument 500 /500.html 
