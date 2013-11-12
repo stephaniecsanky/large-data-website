@@ -37,6 +37,17 @@ ul li {
 	display: block;
 }
 
+.404-box {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+ 	width:600px;
+ 	height:400px;
+ 	background-color:#FC9;
+
+}
+
+
 .footer {
 	padding: 8xp;
 }
