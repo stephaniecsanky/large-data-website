@@ -55,12 +55,12 @@ The website is targeted at canine enthusiasts who are interested in finding out 
 - [ ] Writing exploration
 - [ ] Component guide
 - [x] Homepage design
-- [ ] Inside pages
+- [x] Inside pages
 - [ ] Comments
 - [ ] Categories
 - [ ] Search results
-- [ ] Accessibility
-- [ ] 404 page
+- [x] Accessibility
+- [x] 404 page
 - [x] SEO
 - [x] Metadata
 - [ ] Speed
