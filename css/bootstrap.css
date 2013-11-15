@@ -564,7 +564,7 @@ ol ol {
   }
 
   .col-md-hidden {
-	  display: none;
+          display: none;
   }
 }
 
@@ -1394,5 +1394,5 @@ input[type="search"] {
 
 
 .container {
-	width: 100%;
+        width: 100%;
 }
