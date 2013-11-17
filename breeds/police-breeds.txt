@@ -1,0 +1,17 @@
+Australian Shepherd|United States|Illicit Substance Detection, Tracking|Herding Breed|../img/all-breeds/australian-shepherd.jpg
+Basset Hound|France|Illicit Substance Detection|Scenthound|../img/all-breeds/basset-hound.jpg
+Beagle|England|Illicit Substance Detection, Cadaver-sniffing|Scenthound|../img/all-breeds/beagle.jpg
+Belgian Malinois|Belgium|Public Order Enforcement, Illicit Substance Detection|Herding Dog|../img/police-dogs/belgian-malinois.jpg
+Bloodhound|Belgium/France or England/Scotland|Public Order Enforcement, Tracking, Cadaver-sniffing|Hound|../img/police-dogs/bloodhound.jpg 
+Coonhound|United States|Tracking|Hound|../img/police-dogs/coonhound.jpg
+Doberman Pinscher|Germany|Public Order Enforcement|Utility/Guardian Dog|../img/all-breeds/doberman-pinscher.jpg
+Dutch Shepherd|Netherlands|Public Order Enforcement|Herding|../img/police-dogs/dutch-shepherd.jpg 
+English Cocker Spaniel|England|Illicit Substance Detection|Gun Dog|../img/police-dogs/english-cocker-spaniel.jpg 
+English Springer Spaniel|England|Illicit Substance Detection|Gun Dog|../img/all-breeds/english-springer-spaniel.jpg
+Foxhound|United States, Britain|Illicit Substance Detection|Hound|../img/police-dogs/foxhound.jpg 
+German Shepherd|Germany|Public Order Enforcement, Illicit Substance Detection, Tracking, Cadaver-sniffing|Herding Dog|../img/all-breeds/german-shepherd.jpg
+Golden Retriever|Scotland|Illicit Substance Detection, Tracking, Cadaver-sniffing|Gun Dog|../img/all-breeds/golden-retriever.jpg
+Labrador Retriever|Canada, England|Illicit Substance Detection, Tracking, Cadaver-sniffing|Gun Dog|../img/all-breeds/labrador-retriever.jpg
+Schnauzer|Germany|Illicit Substance Detection|Herding Dog, Terrier|../img/police-dogs/schnauzer.jpg
+Sulimov Dog|Russian|Illicit Substance Detection|Herding/Working Dog|../img/police-dogs/sulimov.jpg
+Weimaraner|Germany|Illicit Substance Detection|Gun Dog|../img/all-breeds/weimaraner.jpg	

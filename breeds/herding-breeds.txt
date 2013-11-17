@@ -1,0 +1,23 @@
+Australian Cattle Dog/Blue Heeler|Australia|../img/herding-dogs/australian-cattle-dog-blue-heeler.jpg
+Australian Shepherd|United States|../img/all-breeds/australian-shepherd.jpg
+Bearded Collie|Scotland|../img/herding-dogs/bearded-collie.jpg
+Beauceron|France|../img/herding-dogs/beauceron.jpg
+Belgian Malinois|Belgium|../img/police-dogs/belgian-malinois.jpg	
+Belgian Sheepdog|Belgium|../img/herding-dogs/belgian-sheepdog.jpg
+Bouvier Des Flandres|Belgium|../img/herding-dogs/bouvier-des-flandres.jpg
+Briard|France|../img/herding-dogs/briard.jpg
+Canaan|Middle East|../img/herding-dogs/canaan.jpg
+Collie|Scotland|../img/all-breeds/collie.jpg
+Corgi|Britain|../img/herding-dogs/corgi.jpg
+German Shepherd|Germany|../img/all-breeds/german-shepherd.jpg
+Icelandic Sheepdog|Iceland|../img/herding-dogs/icelandic-sheepdog.jpg")
+Norwegian Buhund|Norway|../img/herding-dogs/norwegian-buhund.jpg
+Olde English Sheepdog|England|../img/herding-dogs/olde-english-sheepdog.jpg
+Polish Lowland Sheepdog|Poland|../img/herding-dogs/polish-sheepdog.jpg
+Polish Owczarek Nizinny|Polandno|../img/herding-dogs/polish-owczarek-nizinny.jpg
+Puli|Hungary|../img/herding-dogs/puli.jpg
+Pyrenean Shepherd|France|../img/herding-dogs/pyrenean-shepherd.jpg
+Queensland Heeler|Australia|../img/herding-dogs/queensland-heeler.jpg
+Shetland Sheepdog|Scotland|../img/all-breeds/shetland-sheepdog.jpg
+Swedish Valhund|Sweden|../img/herding-dogs/swedish-valhund.jpg
+Welsh Corgi|Wales|../img/all-breeds/pembroke-welsh-corgi.jpg
