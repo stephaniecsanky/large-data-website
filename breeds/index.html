@@ -16,6 +16,7 @@ layout: default
                     var page = $(this).attr("page");
                     //alert(page);
                     fillTable(page);
+					$("#dogTable").tablesorter({sortReset: true, sortRestart: true});
                 });
 			$("#dogTable").tablesorter({sortReset: true, sortRestart: true});
 			});
