@@ -1229,6 +1229,7 @@ input[type="search"] {
   bottom: 0;
   left: 0;
   width: 15%;
+  height: 100%;
   font-size: 20px;
   color: #ffffff;
   text-align: center;
