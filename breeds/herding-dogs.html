@@ -11,14 +11,25 @@ layout: default
 	<script src="js/jquery.tablesorter.widgets.min.js"></script>
 	<script type='text/javascript'>
 			$(document).ready(function(){
-				fillTable(1);
-			$(".pageswitch").click(function(){
-                    var page = $(this).attr("page");
-                    //alert(page);
-                    fillTable(page);
-                });
-			$("#dogTable").tablesorter({sortReset: true, sortRestart: true});å	
-			});
+	var breeds = new Breeds("breeds.txt");
+	breeds.fillTable(1);
+	$(".pageswitch").click(function(){
+		page = $(this).attr("page");
+		breeds.fillTable(page);
+	});
+	$("#search").click(function(){
+		var searchTerms = $("#searchTerms").val();
+		if(searchTerms.length == 0){
+			alert("Must type in something");
+		}
+		var dogs = breeds.search(searchTerms);
+		if(dogs.length == 0){
+			alert("No results found");
+		}else{
+			breeds.fill(dogs);	
+		}
+	});
+});
 		</script>
   </head>
   <body>

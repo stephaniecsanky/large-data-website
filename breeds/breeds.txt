@@ -1,0 +1,48 @@
+Airedele Terrior|England|Terrior|../img/all-breeds/airedale-terrier.jpg
+Akita|Japan|Utility|../img/all-breeds/akita.jpg
+Alaskan Malamute|United States|Northern Breed|../img/all-breeds/alaskan-malamute.jpg
+American Cocker Spaniel|United States|Gun Dog|../img/all-breeds/american-cocker-spaniel.jpg
+Australian Shepherd|United States|Herding Breed|../img/all-breeds/australian-shepherd.jpg
+Basset Hound|France|Scenthound|../img/all-breeds/basset-hound.jpg
+Beagle|England|Scenthound|../img/all-breeds/beagle.jpg
+Bichon Frise|Spain, Belgium|Toy/Companion Dog|../img/all-breeds/bichon-frise.jpg
+Boxer|Germany|Utility/Guardian Dog|../img/all-breeds/boxer.jpg
+Brittany Spaniel|France|Gun Dog|../img/all-breeds/brittany-spaniel.jpg
+Bulldog|England|Utility/Companion Dog|../img/all-breeds/bulldog.jpg
+Cairn Terrier|Scotland|Terrier|../img/all-breeds/cairn-terrier.jpg
+Chesapeake Bay Retriever|United States|Gun Dog|../img/all-breeds/chesapeake-bay-retriever.jpg
+Chihuahua|Mexico|Toy/Companion Dog|../img/all-breeds/chihuahua.jpg
+Chinese Shar-Pei|China|Northern Breed|../img/all-breeds/chinese-shar-pei.jpg
+Chow Chow|China|Northern Breed|../img/all-breeds/chow-chow.jpg
+Collie|Scotland|Herding Dog|../img/all-breeds/collie.jpg
+Dachshund|Germany|Scenthound|../img/all-breeds/dachshund.jpg
+Dalmatian|Croatia|Companion Dog|../img/all-breeds/dalmation.jpg
+Doberman Pinscher|Germany|Utility/Guardian Dog|../img/all-breeds/doberman-pinscher.jpg
+English Springer Spaniel|England|Gun Dog|../img/all-breeds/english-springer-spaniel.jpg
+German Shepherd|Germany|Herding Dog|../img/all-breeds/german-shepherd.jpg
+German Shorthaired Pointer|Germany|Gun Dog|../img/all-breeds/german-shorthaired-pointer.jpg
+Golden Retriever|Scotland|Gun Dog|../img/all-breeds/golden-retriever.jpg
+Great Dane|Germany|Guardian Dog|../img/all-breeds/great-dane.jpg
+Great Pyrenees|France, Spain|Guardian Dog|../img/all-breeds/great-pyrenees.jpg
+Labrador Retriever|Canada, England|Gun Dog|../img/all-breeds/labrador-retriever.jpg
+Lhasa Apso|Tibet|Companion Dog|../img/all-breeds/lhasa-apso.jpg"
+Maltese|Italy|Companion Dog|../img/all-breeds/maltese.jpg
+Mastiff|England|Guardian Dog|../img/all-breeds/mastiff.jpg
+Miniature Pinscher|Germany|Companion Dog|../img/all-breeds/miniature-pinscher.jpg
+Newfoundland|Canada|Utility/Guardian Dog|../img/all-breeds/newfoundland.jpg
+Pekingese|China|Toy/Companion|../img/all-breeds/pekingese.jpg
+Pembroke Welsh Corgi|Wales|Herding Dog|../img/all-breeds/pembroke-welsh-corgi.jpg
+Pomeranian|Germany, Poland|Toy/Companion Dog|../img/all-breeds/pomeranian.jpg
+Poodle|Germany, France|Utility/Companion/Gun Dog|../img/all-breeds/poodle.jpg
+Pug|China|Toy/Companion Dog|../img/all-breeds/pug.jpg
+Rottweiler|Germany|Utility/Guardian Dog|../img/all-breeds/rottweiler.jpg
+Saint Bernard|Italy, Switzerland|Utility/Guardian Dog|../img/all-breeds/saint-bernard.jpg
+Samoyed|Russia|Utility/Northern Breed|../img/all-breeds/samoyed.jpg
+Schipperke|Belgium|Companion Dog|../img/all-breeds/schipperke.jpg
+Scottish Terrier|Scotland|Terrior|../img/all-breeds/scottish-terrier.jpg
+Shetland Sheepdog|Scotland|Herding Dog|../img/all-breeds/shetland-sheepdog.jpg
+Shih-Tzu|China|Utility/Companion Dog|../img/all-breeds/shih-tzu.jpg
+Siberian Husky|Russia|Utility/Northern Breed|../img/all-breeds/siberian-husky.jpg
+Weimaraner|Germany|Gun Dog|../img/all-breeds/weimaraner.jpg"
+West Highland White Terrier|Scotland|Terrior|../img/all-breeds/west-highland-white-terrier.jpg
+Yorkshire Terrier|England|Toy/Companion Dog|../img/all-breeds/yorkshire-terrier.jpg
