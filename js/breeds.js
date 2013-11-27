@@ -44,10 +44,12 @@ function Breeds(filepath){
 				$(lineSplit).each(function(i, e){
 					if(i===0) name = e;
 					if(i==1) country = e;
-					if(lineSplit.length == 4){
+					if(lineSplit.length == 3){
+						if(i==2) img = e;
+					}else if(lineSplit.length == 4){
 						if(i==2) classification = e;
 						if(i==3) img = e;
-					}else{
+					}else if(lineSplit.length == 5){
 						if(i==2) job = e;
 						if(i==3) classification = e;
 						if(i==4) img = e;
@@ -101,19 +103,20 @@ function Breeds(filepath){
 		$("#" + tableName + " thead").append("<tr id='dogTableHeaders'></tr>");
 		$("#dogTableHeaders").append("<th>Breed Name</th>");
 		$("#dogTableHeaders").append("<th>Country of Origin</th>");
-		if(arr[0].job.length >0)
+		if(arr[0].job.length > 0)
 			$("#dogTableHeaders").append("<th>Job</th>");
-		$("#dogTableHeaders").append("<th>Classification</th>");
+		if(arr[0].classification.length > 0)
+			$("#dogTableHeaders").append("<th>Classification</th>");
 		$("#dogTableHeaders").append("<th>Image</th>");
 		$(arr).each(function(i, e){
 			var id = "dog" + i;
 			$("#" + tableName).append("<tr id='" + id + "'></tr>");
 			$("#" + id).append("<td>" + e.name + "</td>");
 			$("#" + id).append("<td>" + e.country + "</td>");
-			if(e.job.length > 0){
+			if(e.job.length > 0)
 				$("#" + id).append("<td>" + e.job + "</td>");
-			}
-			$("#" + id).append("<td>" + e.classification + "</td>");
+			if(e.classification.length > 0)
+				$("#" + id).append("<td>" + e.classification + "</td>");
 			$("#" + id).append("<td><img src='" + e.image + "' alt='" + e.name + "'/></td>");
 		});
 	};
