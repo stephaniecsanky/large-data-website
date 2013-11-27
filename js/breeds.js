@@ -8,13 +8,22 @@ function Breeds(filepath){
 	
 	var dogs = [];
 	
-	var addDog = function(name, country, classification, image){
+	var addDog = function(name, country, job, classification, image){
 		var dog = {};
 		dog.name = name;
 		dog.country = country;
+		dog.job = job;
 		dog.classification = classification;
 		dog.image = image;
 		dogs.push(dog);
+	};
+	
+	var countProperties = function(obj){
+		var count = 0;
+		for(var k in obj){
+			count++;
+		}
+		return count;
 	};
 	
 	var addDogBreeds = function(){
@@ -29,15 +38,22 @@ function Breeds(filepath){
 				var lineSplit = e.split("|");
 				var name = "";
 				var country = "";
+				var job = "";
 				var classification = "";
 				var img = "";
 				$(lineSplit).each(function(i, e){
 					if(i===0) name = e;
 					if(i==1) country = e;
-					if(i==2) classification = e;
-					if(i==3) img = e;
+					if(lineSplit.length == 4){
+						if(i==2) classification = e;
+						if(i==3) img = e;
+					}else{
+						if(i==2) job = e;
+						if(i==3) classification = e;
+						if(i==4) img = e;
+					}
 				});
-				addDog(name, country, classification, img);
+				addDog(name, country, job, classification, img);
 			});
 		}
 		});
@@ -85,6 +101,8 @@ function Breeds(filepath){
 		$("#" + tableName + " thead").append("<tr id='dogTableHeaders'></tr>");
 		$("#dogTableHeaders").append("<th>Breed Name</th>");
 		$("#dogTableHeaders").append("<th>Country of Origin</th>");
+		if(arr[0].job.length >0)
+			$("#dogTableHeaders").append("<th>Job</th>");
 		$("#dogTableHeaders").append("<th>Classification</th>");
 		$("#dogTableHeaders").append("<th>Image</th>");
 		$(arr).each(function(i, e){
@@ -92,8 +110,12 @@ function Breeds(filepath){
 			$("#" + tableName).append("<tr id='" + id + "'></tr>");
 			$("#" + id).append("<td>" + e.name + "</td>");
 			$("#" + id).append("<td>" + e.country + "</td>");
+			if(e.job.length > 0){
+				$("#" + id).append("<td>" + e.job + "</td>");
+			}
 			$("#" + id).append("<td>" + e.classification + "</td>");
 			$("#" + id).append("<td><img src='" + e.image + "' alt='" + e.name + "'/></td>");
 		});
 	};
+	
 }
