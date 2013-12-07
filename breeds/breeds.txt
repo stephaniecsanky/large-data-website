@@ -1,4 +1,4 @@
-Airedele Terrior|England|Terrior|../img/all-breeds/airedale-terrier.jpg
+Airedele Terrier|England|Terrier|../img/all-breeds/airedale-terrier.jpg
 Akita|Japan|Utility|../img/all-breeds/akita.jpg
 Alaskan Malamute|United States|Northern Breed|../img/all-breeds/alaskan-malamute.jpg
 American Cocker Spaniel|United States|Gun Dog|../img/all-breeds/american-cocker-spaniel.jpg
@@ -39,10 +39,10 @@ Rottweiler|Germany|Utility/Guardian Dog|../img/all-breeds/rottweiler.jpg
 Saint Bernard|Italy, Switzerland|Utility/Guardian Dog|../img/all-breeds/saint-bernard.jpg
 Samoyed|Russia|Utility/Northern Breed|../img/all-breeds/samoyed.jpg
 Schipperke|Belgium|Companion Dog|../img/all-breeds/schipperke.jpg
-Scottish Terrier|Scotland|Terrior|../img/all-breeds/scottish-terrier.jpg
+Scottish Terrier|Scotland|Terrier|../img/all-breeds/scottish-terrier.jpg
 Shetland Sheepdog|Scotland|Herding Dog|../img/all-breeds/shetland-sheepdog.jpg
 Shih-Tzu|China|Utility/Companion Dog|../img/all-breeds/shih-tzu.jpg
 Siberian Husky|Russia|Utility/Northern Breed|../img/all-breeds/siberian-husky.jpg
 Weimaraner|Germany|Gun Dog|../img/all-breeds/weimaraner.jpg"
-West Highland White Terrier|Scotland|Terrior|../img/all-breeds/west-highland-white-terrier.jpg
+West Highland White Terrier|Scotland|Terrier|../img/all-breeds/west-highland-white-terrier.jpg
 Yorkshire Terrier|England|Toy/Companion Dog|../img/all-breeds/yorkshire-terrier.jpg
