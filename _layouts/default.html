@@ -28,7 +28,7 @@ layout: default
         <!--These ones are optional for FB but you might as well put them in there, says Thomas -->
         <meta property="twitter:description" content="The domestic dog (Canis lupus familiaris) is a subspecies of the gray wolf (Canis lupus), a member of the Canidae family of the mammalian order Carnivora.">
     <link rel="shortcut icon" href="../img/favicon.ico">
-    <title>Dog Discovery</title>
+    <title>{% if page.title %}{{page.title}} · {% endif %}Dog Discovery{% if page.titleAfter %} · {{page.titleAfter}}{% endif %}</title>
 
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.css" rel="stylesheet">
          <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap-theme.css" rel="stylesheet">
