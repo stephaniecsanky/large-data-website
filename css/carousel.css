@@ -30,7 +30,24 @@ body {
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 60px;
+	margin-bottom: 60px;
+
+/* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+	margin-top: -90px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+	z-index: 10;
+}
+
+.carousel .item {
+  height: 450px;
+  background-color: #777;
+}
+
+.carousel-inner > .item > img {
+	width: 100%;
+}
 
 
 /* MARKETING CONTENT
