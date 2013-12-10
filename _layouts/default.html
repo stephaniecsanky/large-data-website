@@ -3,143 +3,133 @@ layout: default
 ---
 <!DOCTYPE html>
 <html lang="en-ca">
- <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The domestic dog (Canis lupus familiaris) is a subspecies of the gray wolf (Canis lupus), a member of the Canidae family of the mammalian order Carnivora.">
- 	 <link href="https://plus.google.com/u/0/101090543483276961432" rel="author">
-                <!--Facebook-->
-        <meta property="og:type" content="article">
-        <meta property="og:title" content="Dog Discovery">
-        <meta property="og:url" content="http://stephaniecsanky.github.io/large-data-website">
-        <!--Image size: min 200x200, they prefer 1500x1500 -->
-        <meta property="og:image" content="http://stephaniecsanky.github.io/img/coton-du-tulear.jpg">
-        <!--These ones are optional for FB but you might as well put them in there, says Thomas -->
-        <meta property="og:site_name" content="Name of this Website/Company">
-        <meta property="og:description" content="The domestic dog (Canis lupus familiaris) is a subspecies of the gray wolf (Canis lupus), a member of the Canidae family of the mammalian order Carnivora.">
-        
-        <!--Twitter-->
-        <meta property="twitter:card" content="summary">
-        <meta property="twitter:title" content="Dog Discovery">
-        <meta property="twitter:url" content="http://stephaniecsanky.github.io/large-data-website">
-        <!--Image size: min 120x120 -->
-        <meta property="twitter:image" content="http://stephaniecsanky.github.io/img/coton-du-tulear.jpg">
-        <!--These ones are optional for FB but you might as well put them in there, says Thomas -->
-        <meta property="twitter:description" content="The domestic dog (Canis lupus familiaris) is a subspecies of the gray wolf (Canis lupus), a member of the Canidae family of the mammalian order Carnivora.">
-    <link rel="shortcut icon" href="../img/favicon.ico">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="The domestic dog (Canis lupus familiaris) is a subspecies of the gray wolf (Canis lupus), a member of the Canidae family of the mammalian order Carnivora.">
+    <!--Facebook-->
+	<meta property="og:type" content="article">
+    <meta property="og:title" content="Dog Discovery">
+    <meta property="og:url" content="http://stephaniecsanky.github.io/large-data-website">
+    <!--Image size: min 200x200, they prefer 1500x1500 -->
+    <meta property="og:image" content="http://stephaniecsanky.github.io/img/coton-du-tulear.jpg">
+    <!--These ones are optional for FB but you might as well put them in there, says Thomas -->
+    <meta property="og:site_name" content="Name of this Website/Company">
+    <meta property="og:description" content="The domestic dog (Canis lupus familiaris) is a subspecies of the gray wolf (Canis lupus), a member of the Canidae family of the mammalian order Carnivora.">
+    <!--Twitter-->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="Dog Discovery">
+    <meta property="twitter:url" content="http://stephaniecsanky.github.io/large-data-website">
+    <!--Image size: min 120x120 -->
+    <meta property="twitter:image" content="http://stephaniecsanky.github.io/img/coton-du-tulear.jpg">
+    <!--These ones are optional for FB but you might as well put them in there, says Thomas -->
+    <meta property="twitter:description" content="The domestic dog (Canis lupus familiaris) is a subspecies of the gray wolf (Canis lupus), a member of the Canidae family of the mammalian order Carnivora.">
     <title>{% if page.title %}{{page.title}} · {% endif %}Dog Discovery{% if page.titleAfter %} · {{page.titleAfter}}{% endif %}</title>
-
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.css" rel="stylesheet">
-         <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap-theme.css" rel="stylesheet">
-		 <link href="{{site.baseurl}}/css/general.css" rel="stylesheet">
-         <link href="{{site.baseurl}}/css/theme.default.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/jumbotron.css" rel="stylesheet">
-        {% if page.url == '{{site.baseurl}}/index.html' %}{% endif %}<link href="{{site.baseurl}}/css/carousel.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+	<link href="https://plus.google.com/u/0/101090543483276961432" rel="author">
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.css" rel="stylesheet">
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/general.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/theme.default.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/jumbotron.css" rel="stylesheet">
+	{% if page.url == '{{site.baseurl}}/index.html' %}{% endif %}<link href="{{site.baseurl}}/css/carousel.css" rel="stylesheet">
 	<script src="{{site.baseurl}}/js/jquery-1.10.1.js"></script>
 	<script src="{{site.baseurl}}/assets/js/holder.js"></script> 
-     <script src="{{site.baseurl}}/js/modernizr.custom.43675.js"></script>   
-	 <script src="{{site.baseurl}}/dist/js/bootstrap.js"></script>
-	<script src="{{site.baseurl}}/js/breeds.js"></script>
-
-	<!-- <script src="{{site.baseurl}}/js/modernizr.custom.43675.js"></script> 
-	<script src="../assets/js/jquery.js"></script>
-	<script src="../js/jquery-1.10.1.js"></script>
+	<script src="{{site.baseurl}}/js/modernizr.custom.43675.js"></script>   
 	<script src="{{site.baseurl}}/dist/js/bootstrap.js"></script>
-    <script src="../dist/js/bootstrap.min.js"></script>
-	<script src="../assets/js/holder.js"></script>
-	<script src="../js/jquery.tablesorter.js"></script>
-	<script src="../js/jquery.tablesorter.min.js"></script>
-	<script src="../js/jquery.tablesorter.widgets.min.js"></script> -->
-  </head>
+	<script src="{{site.baseurl}}/js/breeds.js"></script>
+</head>
 
 <body>
-        <ul class="skiplinks">
-			<li><a href="#main">Skip to main content</a></li>
-			<li><a href="#secondary">Skip to secondary content</a></li>
-			<li><a href="#primenav">Skip to primary navigation</a></li>
-        </ul>
-  
-          <header>
-          
-         <div class="navbar-wrapper">
-         		<div class="navbar navbar-inverse navbar-static-top">
-               <div class="container">
-                    <div class="navbar-header">
-                              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                               <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                             </button>
-                    </div>
-                    <nav role="navigation" id="primenav">
-                        <div class="navbar-collapse collapse">
-                             <ul class="nav navbar-nav">
-                                  <li class="{% if page.url == '/index.html' %}active{% endif %}"><a href="{{site.baseurl}}/index.html" rel="home">Home</a></li>
-                                  <li class="dropdown">
-                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Breeds <b class="caret"></b></a>
-										<ul class="dropdown-menu">
-                                    <li class="{% if page.url == '{{site.baseurl}}/breeds/index.html' %}active{% endif %}"><a href="{{site.baseurl}}/breeds/index.html">Most Popular Dog Breeds</a></li>
-                                    <li class="{% if page.url == '{{site.baseurl}}/breeds/police-dogs.html' %}active{% endif %}"><a href="{{site.baseurl}}/breeds/police-dogs.html">Police Dog Breeds</a></li>
-                                    <li class="{% if page.url == '{{site.baseurl}}/breeds/herding-dogs.html' %}active{% endif %}"><a href="{{site.baseurl}}/breeds/herding-dogs.html">Herding Dog Breeds</a></li>
-                                    </ul>
-                                       </li>
-                                    <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Travelling <b class="caret"></b></a>
-                                    <ul class="dropdown-menu">
+	<ul class="skiplinks">
+		<li><a href="#main">Skip to main content</a></li>
+		<li><a href="#secondary">Skip to secondary content</a></li>
+		<li><a href="#primenav">Skip to primary navigation</a></li>
+	</ul>
+
+	<header>
+		<div class="navbar-wrapper">
+			<div class="navbar navbar-inverse navbar-static-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                      	<span class="icon-bar"></span>
+                      	<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+                      </button>
+					</div>
+                 
+				 	<nav role="navigation" id="primenav">
+                  	<div class="navbar-collapse collapse">
+                      	<ul class="nav navbar-nav">
+                         		<li class="{% if page.url == '/index.html' %}active{% endif %}"><a href="{{site.baseurl}}/index.html" rel="home">Home</a></li>
+                            
+							 	<li class="dropdown">
+                             	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Breeds <b class="caret"></b></a>
+									<ul class="dropdown-menu">
+										<li class="{% if page.url == '{{site.baseurl}}/breeds/index.html' %}active{% endif %}"><a href="{{site.baseurl}}/breeds/index.html">Most Popular Dog Breeds</a></li>
+										<li class="{% if page.url == '{{site.baseurl}}/breeds/police-dogs.html' %}active{% endif %}"><a href="{{site.baseurl}}/breeds/police-dogs.html">Police Dog Breeds</a></li>
+										<li class="{% if page.url == '{{site.baseurl}}/breeds/herding-dogs.html' %}active{% endif %}"><a href="{{site.baseurl}}/breeds/herding-dogs.html">Herding Dog Breeds</a></li>
+									</ul>
+								</li>
+								
+								<li class="dropdown">
+                             	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Travelling <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
                                     <li class="{% if page.url == '{{site.baseurl}}/travel/crate-training.html' %}active{% endif %}"><a href="{{site.baseurl}}/travel/crate-training.html">Crate Training Your Dog</a></li>
                                     <li class="{% if page.url == '{{site.baseurl}}/travel/tips.html' %}active{% endif %}"><a href="{{site.baseurl}}/travel/tips.html">Tips for Travelling With A Dog</a></li>
                                     <li class="{% if page.url == '{{site.baseurl}}/travel/dog-boarding.html' %}active{% endif %}"><a href="{{site.baseurl}}/travel/dog-boarding.html">Dog Boarding</a></li>
-                                                 </ul>
-                                        </li>
-                                    <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Grooming <b class="caret"></b></a>
-                                    <ul class="dropdown-menu">
+                                </ul>
+                            </li>
+                            
+								<li class="dropdown">
+                             	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Grooming <b class="caret"></b></a>
+									<ul class="dropdown-menu">
                                     <li class="{% if page.url == '{{site.baseurl}}/grooming/tear-stains.html' %}active{% endif %}"><a href="{{site.baseurl}}/grooming/tear-stains.html">Tear Stains</a></li>
                                     <li class="{% if page.url == '{{site.baseurl}}/grooming/coats.html' %}active{% endif %}"><a href="{{site.baseurl}}/grooming/coats.html">Coats</a></li>
                                     <li class="{% if page.url == '{{site.baseurl}}/grooming/shedding.html' %}active{% endif %}"><a href="{{site.baseurl}}/grooming/shedding.html">Shedding</a></li>
                                     <li class="{% if page.url == '{{site.baseurl}}/grooming/nails.html' %}active{% endif %}"><a href="{{site.baseurl}}/grooming/nails.html">Nails</a></li>
                                     <li class="{% if page.url == '{{site.baseurl}}/grooming/dental.html' %}active{% endif %}"><a href="{{site.baseurl}}/grooming/dental.html">Dental Care</a></li>
-                    					 </ul>
-                                     </li>
-                                     <li class="dropdown">
-                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prospective Owners <b class="caret"></b></a>
-                                     <ul class="dropdown-menu">
-                                      <li class="{% if page.url == '{{site.baseurl}}/owners/multiple-pets.html' %}active{% endif %}"><a href="{{site.baseurl}}/owners/multiple-pets.html">Benefits of Multiple Pets</a></li>
-                                      <li class="{% if page.url == '{{site.baseurl}}/owners/adopting.html' %}active{% endif %}"><a href="{{site.baseurl}}/owners/adopting.html">Things to Consider</a></li>
-                                       <li class="{% if page.url == '{{site.baseurl}}/owners/what-breed.html' %}active{% endif %}"><a href="{{site.baseurl}}/owners/what-breed.html">What Breed is Best for You?</a></li>
-                                       <li class="{% if page.url == '{{site.baseurl}}/owners/costs.html' %}active{% endif %}"><a href="{{site.baseurl}}/owners/costs.html">Costs of Owning A Dog</a></li>
-                                       </ul>
-                                        </li>
-                                        <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Socializing <b class="caret"></b></a>
-                                   <ul class="dropdown-menu">
-                                   <li class="{% if page.url == '{{site.baseurl}}/socializing/bad-behaviour.html' %}active{% endif %}"><a href="{{site.baseurl}}/socializing/bad-behaviour.html">Reversing Bad Behaviour</a></li>
-                                   <li class="{% if page.url == '{{site.baseurl}}/socializing/proper-socializing.html' %}active{% endif %}"><a href="{{site.baseurl}}/socializing/proper-socializing.html">Properly Socializing Your Dog</a></li>
-                                  	</ul>
-                                    </li>
-                                    <li><a href ="http://www.facebook.com" rel="external"><img src="{{site.baseurl}}/img/facebook.png" class="nav-icon" alt="Facebook Icon"></a></li>
-                                   <li><a href="http://www.twitter.com" rel="external"><img src="{{site.baseurl}}/img/twitter.png" class="nav-icon" alt="Twitter Icon"></a></li>
-                                	<div class="searchbar"> 
-                                        <label></label>
-                                        <input type="search" placeholder="Search">
-                                </div> 
-                          </ul>
-            </div>
-          </div>
-        </div>
-                </nav>
-    
+                    				</ul>
+								</li>
+                             
+							 	<li class="dropdown">
+                             	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Prospective Owners <b class="caret"></b></a>
+                                	<ul class="dropdown-menu">
+                                		<li class="{% if page.url == '{{site.baseurl}}/owners/multiple-pets.html' %}active{% endif %}"><a href="{{site.baseurl}}/owners/multiple-pets.html">Benefits of Multiple Pets</a></li>
+                                 	<li class="{% if page.url == '{{site.baseurl}}/owners/adopting.html' %}active{% endif %}"><a href="{{site.baseurl}}/owners/adopting.html">Things to Consider</a></li>
+                                		<li class="{% if page.url == '{{site.baseurl}}/owners/what-breed.html' %}active{% endif %}"><a href="{{site.baseurl}}/owners/what-breed.html">What Breed is Best for You?</a></li>
+                                		<li class="{% if page.url == '{{site.baseurl}}/owners/costs.html' %}active{% endif %}"><a href="{{site.baseurl}}/owners/costs.html">Costs of Owning A Dog</a></li>
+                          		</ul>
+                     			</li>
+                             
+							 	<li class="dropdown">
+                             	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Socializing <b class="caret"></b></a>
+                               	<ul class="dropdown-menu">
+                                		<li class="{% if page.url == '{{site.baseurl}}/socializing/bad-behaviour.html' %}active{% endif %}"><a href="{{site.baseurl}}/socializing/bad-behaviour.html">Reversing Bad Behaviour</a></li>
+                                   	<li class="{% if page.url == '{{site.baseurl}}/socializing/proper-socializing.html' %}active{% endif %}"><a href="{{site.baseurl}}/socializing/proper-socializing.html">Properly Socializing Your Dog</a></li>
+                               	</ul>
+                       		</li>
+                            	
+								<li><a href ="http://www.facebook.com" rel="external"><img src="{{site.baseurl}}/img/facebook.png" class="nav-icon" alt="Facebook Icon"></a></li>
+                          	<li><a href="http://www.twitter.com" rel="external"><img src="{{site.baseurl}}/img/twitter.png" class="nav-icon" alt="Twitter Icon"></a></li>
+                         		<div class="searchbar"> 
+                             	<label></label>
+                             	<input type="search" placeholder="Search">
+                         		</div> 
+							</ul>
+            			</div>
+          			</div>
+        		</div>
+        	</nav>
 		</header>
-
 
 {{content}}
 
-            <footer role="contentinfo">
-                <p class="pull-right"><a href="#">Back to top</a></p>
-                <p>&copy; 2013 Dog Discovery Inc.</p>
+       <footer role="contentinfo">   
+	   		<p class="pull-right"><a href="#">Back to top</a></p>
+         	<p>&copy; 2013 Dog Discovery Inc.</p>
       </footer>
-  
-
 
   </body>
   
