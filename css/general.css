@@ -74,8 +74,12 @@ ul li {
 	background-color:#630;
 }
 
-.btn {
-	margin-left: 20px;
+.btn-search {
+	margin-left: 10px;
+}
+
+#searchTerms {
+	margin-left: 15px;
 }
 
 .lead {
