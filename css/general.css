@@ -53,12 +53,22 @@ ul li {
 	background-image: none;
 }
 
-.navbar-inverse .navbar-nav > .open > a:hover,
-.navbar-inverse .navbar-nav > .open > a:focus {
-	color:#FFF,
-	background-color:#C96;
+.navbar-inverse .navbar-nav > li > a:active {
+	background-color:#69F;
 }
-		
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	background-color:#F03;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+	background-color: #C96;
+}
+
+.navbar-inverse .navbar-nav > .dropdown > .active > a:selected {
+	background-image: none;
+	background-color:#630;
+}
 
 .lead {
 	font-size: 1.25em;
