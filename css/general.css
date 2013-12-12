@@ -10,8 +10,6 @@
         box-sizing: border-box;
 }
 
-
-
 html {
 	font: normal 100%/1.4 Georgia, serif;
 }
@@ -40,6 +38,27 @@ margin-left: 15px;
 ul li {
 	list-style-type: none;
 }
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse {
+  background-image: none;
+}
+
+.navbar-inverse {
+	background-color: #422406;
+	border-color:#3D2919;
+}
+
+.dropdown-menu > li > a:hover, .drop-down-menu > li > a:focus {
+	background-color: #C96;
+	background-image: none;
+}
+
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+	color:#FFF,
+	background-color:#C96;
+}
+		
 
 .lead {
 	font-size: 1.25em;
