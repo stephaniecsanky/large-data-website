@@ -53,12 +53,12 @@ ul li {
 	background-image: none;
 }
 
-.navbar-inverse .navbar-nav > li > a:active {
-	background-color:#69F;
+.navbar-inverse .navbar-nav > .active {
+	background-color:#60380D;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-	background-color:#F03;
+	background-color:#C60;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
