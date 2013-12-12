@@ -78,6 +78,11 @@ ul li {
 	font-size: 1.25em;
 }
 
+.jumbotron {
+	background-color: #C96;
+	color:#000;
+}
+
 @media (min-width: 668px) {
   .container {
     width: 720px;
