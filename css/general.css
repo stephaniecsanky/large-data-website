@@ -74,6 +74,10 @@ ul li {
 	background-color:#630;
 }
 
+.btn {
+	margin-left: 20px;
+}
+
 .lead {
 	font-size: 1.25em;
 }
