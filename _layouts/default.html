@@ -65,7 +65,7 @@ layout: default
                          		<li class="{% if page.url == '/index.html' %}active{% endif %}"><a href="{{site.baseurl}}/index.html" rel="home">Home</a></li>
                             
 							 	<li class="dropdown">
-                             	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Breeds <b class="caret"></b></a>
+                             	<a href="#" class="{% if page.category == 'breeds' %}active{% endif %} dropdown-toggle" data-toggle="dropdown">Breeds <b class="caret"></b></a>
 									<ul class="dropdown-menu">
 										<li class="{% if page.url == '{{site.baseurl}}/breeds/index.html' %}active{% endif %}"><a href="{{site.baseurl}}/breeds/index.html">Most Popular Dog Breeds</a></li>
 										<li class="{% if page.url == '{{site.baseurl}}/breeds/police-dogs.html' %}active{% endif %}"><a href="{{site.baseurl}}/breeds/police-dogs.html">Police Dog Breeds</a></li>
@@ -74,7 +74,7 @@ layout: default
 								</li>
 								
 								<li class="dropdown">
-                             	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Travelling <b class="caret"></b></a>
+                             	<a href="#" class="{% if page.category == 'travel' %}active{% endif %} dropdown-toggle" data-toggle="dropdown">Travelling <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li class="{% if page.url == '{{site.baseurl}}/travel/crate-training.html' %}active{% endif %}"><a href="{{site.baseurl}}/travel/crate-training.html">Crate Training Your Dog</a></li>
                                     <li class="{% if page.url == '{{site.baseurl}}/travel/tips.html' %}active{% endif %}"><a href="{{site.baseurl}}/travel/tips.html">Tips for Travelling With A Dog</a></li>
@@ -83,7 +83,7 @@ layout: default
                             </li>
                             
 								<li class="dropdown">
-                             	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Grooming <b class="caret"></b></a>
+                             	<a href="#" class=" {% if page.category == 'grooming' %}active{% endif %}dropdown-toggle" data-toggle="dropdown">Grooming <b class="caret"></b></a>
 									<ul class="dropdown-menu">
                                     <li class="{% if page.url == '{{site.baseurl}}/grooming/tear-stains.html' %}active{% endif %}"><a href="{{site.baseurl}}/grooming/tear-stains.html">Tear Stains</a></li>
                                     <li class="{% if page.url == '{{site.baseurl}}/grooming/coats.html' %}active{% endif %}"><a href="{{site.baseurl}}/grooming/coats.html">Coats</a></li>
@@ -94,7 +94,7 @@ layout: default
 								</li>
                              
 							 	<li class="dropdown">
-                             	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Prospective Owners <b class="caret"></b></a>
+                             	<a href="#" class="{% if page.category == 'owners' %}active{% endif %} dropdown-toggle" data-toggle="dropdown">Prospective Owners <b class="caret"></b></a>
                                 	<ul class="dropdown-menu">
                                 		<li class="{% if page.url == '{{site.baseurl}}/owners/multiple-pets.html' %}active{% endif %}"><a href="{{site.baseurl}}/owners/multiple-pets.html">Benefits of Multiple Pets</a></li>
                                  	<li class="{% if page.url == '{{site.baseurl}}/owners/adopting.html' %}active{% endif %}"><a href="{{site.baseurl}}/owners/adopting.html">Things to Consider</a></li>
@@ -104,7 +104,7 @@ layout: default
                      			</li>
                              
 							 	<li class="dropdown">
-                             	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Socializing <b class="caret"></b></a>
+                             	<a href="#" class="{% if page.category == 'socializing' %}active{% endif %} dropdown-toggle" data-toggle="dropdown">Socializing <b class="caret"></b></a>
                                	<ul class="dropdown-menu">
                                 		<li class="{% if page.url == '{{site.baseurl}}/socializing/bad-behaviour.html' %}active{% endif %}"><a href="{{site.baseurl}}/socializing/bad-behaviour.html">Reversing Bad Behaviour</a></li>
                                    	<li class="{% if page.url == '{{site.baseurl}}/socializing/proper-socializing.html' %}active{% endif %}"><a href="{{site.baseurl}}/socializing/proper-socializing.html">Properly Socializing Your Dog</a></li>
